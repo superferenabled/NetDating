@@ -10,7 +10,7 @@ import { RouterOutlet } from '@angular/router';
   styleUrl: './app.component.scss'
 })
 export class AppComponent implements OnInit {
-  title = 'client';
+  title = 'Dating App';
   users: any;
 
   constructor(private http: HttpClient) {
